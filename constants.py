@@ -1,13 +1,13 @@
 """
 Simulation Constants
-"""
 
+"""
 
 class SimColor:
 """
 Tuples corresponding to RGB colors
 """
-    LIGHT_GREY = (240, 240, 240)
+    LIGHT_GREY = (240, 230, 240)
     DARK_GREY = (30, 30, 50)
     BLACK = (0, 0, 0)
     LIMIT_LINE = (80, 80, 100)
@@ -24,7 +24,7 @@ Constants for disease
     RECOVERED = 1
     UNEXPOSED = 2
 
-    DEFAULT_RECOVERY_PERIOD = 340
+    DEFAULT_RECOVERY_PERIOD = 330
 
     COLOR_MAP = {
         INFECTED: SimColor.INFECTED,
